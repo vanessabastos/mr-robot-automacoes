@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Van Bastos | Automações Digitais</title>
+  <title>Mr.Robot | Automações Digitais</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Automações com Van Bastos</h1>
+    <h1>Automações com Mr. Robot</h1>
     <nav>
       <a href="#servicos">Serviços</a>
       <a href="#sobre">Sobre</a>
@@ -32,10 +32,13 @@
 
   <section id="contato">
     <h3>Fale comigo</h3>
-    <form id="form-contato">
+    <form action="https://formsubmit.co/mrrobotautomacoes@gmail.com" method="POST">
       <input type="text" placeholder="Seu nome" required>
       <input type="email" placeholder="Seu e-mail" required>
       <textarea placeholder="Mensagem"></textarea>
+      <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+      <input type="hidden" name="_subject" value="Nova mensagem do site!">
+      <input type="hidden" name="_captcha" value="false">
       <button type="submit">Enviar</button>
     </form>
   </section>
